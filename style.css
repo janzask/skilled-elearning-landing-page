@@ -259,6 +259,7 @@ main {
 }
 
 .tablet-image {
+  position: relative;
   aspect-ratio: 1;
   max-width: 15.8125rem;
   height: 13.5rem;
@@ -276,6 +277,13 @@ main {
   .tablet-image {
     aspect-ratio: 1;
   }
+}
+
+.tablet-image-women {
+  width: 80%;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
 }
 
 .tablet-members {
