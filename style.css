@@ -262,7 +262,6 @@ main {
   position: relative;
   aspect-ratio: 1;
   max-width: 15.8125rem;
-  height: 13.5rem;
   overflow: hidden;
   padding-top: 3rem;
   border-radius: 99rem;
@@ -275,7 +274,7 @@ main {
 
 @media (min-width: 768px) {
   .tablet-image {
-    aspect-ratio: 1;
+    aspect-ratio: 0.5;
   }
 }
 
