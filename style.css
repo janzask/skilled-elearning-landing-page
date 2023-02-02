@@ -285,12 +285,6 @@ main {
   right: 0.3rem;
 }
 
-@media (min-width: 768px) {
-  .tablet-image-women {
-    top: 0.6rem;
-    right: 0.6rem;
-  }
-}
 
 .tablet-members {
   padding: 1rem 1.25rem;
