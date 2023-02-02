@@ -274,7 +274,7 @@ main {
 
 @media (min-width: 768px) {
   .tablet-image {
-    aspect-ratio: 0.5;
+    aspect-ratio: initial;
   }
 }
 
@@ -285,6 +285,14 @@ main {
   margin: 0 auto;
   top: -2rem;
   right: -0.5rem;
+}
+
+@media (min-width: 768px) {
+  .tablet-image-women {
+    width: 100%;
+    padding-top: 0.5rem;
+    top: -0.6rem;
+  }
 }
 
 
