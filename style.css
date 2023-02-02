@@ -280,9 +280,11 @@ main {
 
 .tablet-image-women {
   width: 87%;
-  position: absolute;
-  top: 0.6rem;
-  right: 0.3rem;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: -2rem;
+  right: -0.5rem;
 }
 
 
