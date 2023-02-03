@@ -298,11 +298,6 @@ main {
   line-height: 1;
 }
 
-/*
-.courses > * {
-    margin: 0;
-}
-*/
 
 .courses {
   background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
