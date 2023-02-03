@@ -1,4 +1,4 @@
-*, 
+*,
 *:before,
 *:after {
   box-sizing: border-box;
@@ -262,9 +262,9 @@ main {
 }
 
 .intro-course {
-    padding: 1rem 2.75rem 1rem 1.25rem;
-    bottom: -1.25rem;
-    left: 0.5rem;
+  padding: 1rem 2.75rem 1rem 1.25rem;
+  bottom: -1.25rem;
+  left: 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -284,19 +284,19 @@ main {
 }
 
 .intro-property {
-    margin: 0 0 0.5rem;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  
-  .intro-value {
-    color: #13183f;
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 1;
-  }
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.intro-value {
+  color: #13183f;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+}
 
 /*
 .courses > * {
@@ -434,7 +434,6 @@ footer {
     padding-right: 2.5rem;
   }
 }
-
 
 .footer-brand {
   flex-shrink: 1;
