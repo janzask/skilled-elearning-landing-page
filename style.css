@@ -108,7 +108,7 @@ h3 {
 @media (min-width: 768px) {
   h3 {
     max-width: 21.125rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0 0 0;
     padding: 3.5rem 2rem 8.75rem;
   }
 }
