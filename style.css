@@ -480,6 +480,12 @@ footer {
   }
 }
 
+@media (min-width: 1440px) {
+  footer {
+    padding: 2rem 10.375rem;
+  }
+}
+
 .footer-brand {
   flex-shrink: 1;
   flex-grow: 0;
