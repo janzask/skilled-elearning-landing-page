@@ -385,6 +385,12 @@ main {
   }
 }
 
+@media (min-width: 1440px) {
+  .mini-card {
+    margin-top: 3.5rem;
+  }
+}
+
 .mini-card-icon {
   margin-top: -5rem;
 }
