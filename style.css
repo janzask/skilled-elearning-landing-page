@@ -113,6 +113,15 @@ h3 {
   }
 }
 
+@media (min-width: 1152px) {
+  h3 {
+    max-width: 21.875rem;
+    padding: 4rem 2rem 8.625rem;
+    font-size: 2rem;
+    line-height: 1.25; /*40/32*/
+  }
+}
+
 @media (min-width: 1440px) {
   h3 {
     font-size: 2rem;
@@ -338,6 +347,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1152px) {
+  .mini-card {
+    max-width: 21.875rem;
   }
 }
 
