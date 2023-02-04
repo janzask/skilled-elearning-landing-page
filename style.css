@@ -50,6 +50,14 @@ p {
   }
 }
 
+@media (min-width: 1152px) {
+  p {
+    font-size: 1.125rem;
+    line-height: 1.55556;
+  }
+}
+
+
 h1 {
   margin: 0;
 }
@@ -110,6 +118,7 @@ h3 {
     max-width: 21.125rem;
     margin: 2.5rem 0 0 0;
     padding: 3.5rem 2rem 8.75rem;
+    border-radius: 1rem;
   }
 }
 
@@ -135,6 +144,13 @@ h4 {
   margin-top: 1.25rem;
   margin-bottom: 1.0625rem;
   /* nebo nechat 1rem */
+}
+
+@media (min-width: 1152px) {
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
 }
 
 /*----HEADER----*/
@@ -353,6 +369,7 @@ main {
 @media (min-width: 1152px) {
   .mini-card {
     max-width: 21.875rem;
+    padding: 0.5rem 2rem 2.5rem;
   }
 }
 
