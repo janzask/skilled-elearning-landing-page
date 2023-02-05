@@ -87,6 +87,7 @@ h2 {
 @media (min-width: 1152px) {
   h2 {
     font-size: 3.5rem;
+    margin-bottom: 1.75rem;
     /*56px/16px*/
   }
 }
@@ -223,17 +224,31 @@ main {
   }
 }
 
+@media (min-width: 1152px) {
+  .intro {
+    margin-left: 10.375rem;
+  }
+}
+
+
+
 @media (min-width: 768px) {
   .intro-text {
     min-width: 24.875rem;
     margin-right: 2rem;
     margin-top: 6.25rem;
-  }
 }
 
 @media (min-width: 1152px) {
   .intro-text {
    min-width: 28.5625rem;
+   margin-top: 11.625rem;;
+  }
+}
+
+@media (min-width: 1152px) {
+  .intro-text p {
+    padding-right: 0.75rem;
   }
 }
 
@@ -470,6 +485,7 @@ main {
 @media (min-width: 1152px) {
   .button-orange {
     padding: 1.125rem 2rem;
+    margin-top: 2.5rem;
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
