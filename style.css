@@ -84,12 +84,13 @@ h2 {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1152px) {
   h2 {
     font-size: 3.5rem;
     /*56px/16px*/
   }
 }
+
 
 h3 {
   background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -170,7 +171,7 @@ h4 {
 
 @media (min-width: 1440px) {
   .header {
-    margin: 2.375rem 10.375rem 0;
+    margin: 1.5rem 10.375rem 0;
   }
 }
 
@@ -227,6 +228,12 @@ main {
     min-width: 24.875rem;
     margin-right: 2rem;
     margin-top: 6.25rem;
+  }
+}
+
+@media (min-width: 1152px) {
+  .intro-text {
+   min-width: 28.5625rem;
   }
 }
 
