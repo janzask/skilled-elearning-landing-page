@@ -117,7 +117,7 @@ h3 {
     max-width: 21.125rem;
     margin: 2.5rem 0 0 0;
     padding: 3.5rem 2rem 8.75rem;
-    border-radius: 1rem;
+    border-radius: 0.625rem;
   }
 }
 
@@ -125,6 +125,7 @@ h3 {
   h3 {
     max-width: 21.875rem;
     padding: 4rem 2rem 8.625rem;
+    border-radius: 1rem;
     font-size: 2rem;
     line-height: 1.25; /*40/32*/
   }
@@ -381,6 +382,7 @@ main {
   .mini-card {
     max-width: 21.875rem;
     padding: 0.5rem 2rem 2.5rem;
+    border-radius: 1rem;
   }
 }
 
