@@ -439,6 +439,11 @@ main {
   background-color: #13183f;
 }
 
+.button-dark:hover,
+.button-dark:active {
+  background-color: #666ca3;
+}
+
 .button-orange {
   background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   padding: 1rem 2.375rem;
@@ -450,6 +455,10 @@ main {
   /*32px/16px*/
 }
 
+.button-orange:hover,
+.button-orange:active {
+  background-image: linear-gradient(180deg, #FFA7C3 0%, #FFA7C3 100%);
+}
 @media (min-width: 1152px) {
   .button-orange {
     padding: 1.125rem 2rem;
@@ -479,6 +488,11 @@ main {
 
 .button-violet {
   background-image: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+.button-violet:hover,
+.button-violet:active {
+  background-image: linear-gradient(180deg, #ec97d8 0%, #c89fec 100%);
 }
 
 /*----FOOTER----*/
