@@ -347,6 +347,7 @@ main {
 @media (min-width: 1440px) {
   .courses {
     gap: 0 1.875rem;
+    padding-bottom: 8.75rem;
   }
 }
 
