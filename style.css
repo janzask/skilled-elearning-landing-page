@@ -221,7 +221,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    
+    margin-bottom: 8.5rem;
   }
 }
 
