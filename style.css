@@ -220,7 +220,8 @@ main {
   .intro {
     display: flex;
     align-items: flex-start;
-    margin: 0 2.5rem 6.5rem;
+    justify-content: center;
+    
   }
 }
 
