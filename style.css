@@ -227,6 +227,14 @@ main {
   }
 }
 
+@media (min-width: 1152px) {
+  .intro {
+    margin-right: 0;
+    margin-left: 10.375rem;
+    justify-content: flex-start;
+  }
+}
+
 @media (min-width: 768px) {
   .intro-text {
     min-width: 24.875rem;
@@ -238,6 +246,7 @@ main {
 @media (min-width: 1152px) {
   .intro-text {
    min-width: 28.5625rem;
+   margin-right: 17.625rem;
   }
 }
 
