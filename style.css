@@ -398,6 +398,7 @@ main {
 @media (min-width: 1152px) {
   .mini-card {
     max-width: 21.875rem;
+    margin-top: 3.5rem;
     padding: 0.5rem 2rem 2.5rem;
     border-radius: 1rem;
   }
