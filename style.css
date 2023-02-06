@@ -404,6 +404,12 @@ main {
   }
 }
 
+@media (min-width: 1152px) {
+  .mini-card:nth-child(n+4) {
+    margin-top: 5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .mini-card {
     margin-top: 3.5rem;
