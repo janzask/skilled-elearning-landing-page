@@ -251,7 +251,7 @@ main {
   .intro-text {
     min-width: 24.875rem;
     margin-right: 2rem; /* todo: udělat jako gap (v jednom směru)*/
-    margin-top: 6.25rem;
+    margin-top: 11.125rem;
   }
 }
 
@@ -524,6 +524,7 @@ main {
   .button-orange {
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
+    margin-bottom: 0;
   }
 }
 
