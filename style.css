@@ -4,13 +4,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  --maximum-width: 100%;
-}
-
 @media (min-width: 768px) {
   :root {
-    --maximum-width: 49.375rem; /*todo: skutecne cislo*/
+    --maximum-width: 43.125rem; /*todo: skutecne cislo*/
   }
 }
 
@@ -184,12 +180,14 @@ h4 {
 @media (min-width: 768px) {
   .header {
     margin: 1.5rem 2.5rem 0;
+    max-width: var(--maximum-width);
   }
 }
 
 @media (min-width: 1440px) {
   .header {
-    margin: 1.5rem 10.375rem 0;
+    margin: 1.5rem 10.3125rem 0;
+    max-width: var(--maximum-width);
   }
 }
 
