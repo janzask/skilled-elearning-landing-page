@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --maximum-width: 100%;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --maximum-width: 49.375rem; /*todo: skutecne cislo*/
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --maximum-width: 69.375rem;
+  }
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background-color: #ffffff;
@@ -50,7 +66,7 @@ p {
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   p {
     font-size: 1.125rem;
     line-height: 1.55556;
@@ -84,14 +100,13 @@ h2 {
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   h2 {
     font-size: 3.5rem;
     margin-bottom: 1.75rem;
     /*56px/16px*/
   }
 }
-
 
 h3 {
   background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -123,7 +138,7 @@ h3 {
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   h3 {
     max-width: 21.875rem;
     padding: 4rem 2rem 8.625rem;
@@ -149,7 +164,7 @@ h4 {
   /* nebo nechat 1rem */
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   h4 {
     font-size: 1.5rem;
     line-height: 1.25;
@@ -227,30 +242,28 @@ main {
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .intro {
-    margin-right: 0;
-    margin-left: 10.375rem;
-    justify-content: flex-start;
+    max-width: var(--maximum-width);
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 768px) {
   .intro-text {
     min-width: 24.875rem;
-    margin-right: 2rem;
+    margin-right: 2rem; /* todo: udělat jako gap (v jednom směru)*/
     margin-top: 6.25rem;
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .intro-text {
-   min-width: 28.5625rem;
-   margin-right: 17.625rem;
+    min-width: 28.5625rem;
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .intro-text p {
     padding-right: 0.75rem;
   }
@@ -356,7 +369,11 @@ main {
 }
 
 .courses {
-  background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f0f1ff 100%
+  ); /*todo: refactor: zjednodusit*/
   padding-bottom: 5rem;
   margin: 0;
 }
@@ -404,7 +421,7 @@ main {
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .mini-card {
     max-width: 21.875rem;
     margin-top: 3.5rem;
@@ -413,8 +430,8 @@ main {
   }
 }
 
-@media (min-width: 1152px) {
-  .mini-card:nth-child(n+4) {
+@media (min-width: 1280px) {
+  .mini-card:nth-child(n + 4) {
     margin-top: 5rem;
   }
 }
@@ -452,7 +469,7 @@ main {
   white-space: nowrap;
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .button-dark,
   .button-violet {
     font-size: 1.125rem;
@@ -479,7 +496,7 @@ main {
 }
 
 .button-orange {
-  background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  background-image: linear-gradient(#f02aa6, #ff6f48);
   padding: 1rem 2.375rem;
   margin-top: 1.5rem;
   /*24/16*/
@@ -491,9 +508,12 @@ main {
 
 .button-orange:hover,
 .button-orange:active {
-  background-image: linear-gradient(180deg, #ffa7c3 0%, #ffa7c3 100%);
+  background-image: linear-gradient(
+    #ffa7c3,
+    #ffa7c3
+  ); /* todo: upravit jako violet */
 }
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
   .button-orange {
     padding: 1.125rem 2rem;
     margin-top: 2.5rem;
@@ -527,35 +547,47 @@ main {
 }
 
 .button-violet {
-  background-image: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  background-image: linear-gradient(#f02aa6, #4851ff);
 }
 
 .button-violet:hover,
 .button-violet:active {
-  background-image: linear-gradient(180deg, #ec97d8 0%, #c89fec 100%);
+  color: #13183f;
+  background-image: linear-gradient(
+      rgb(255 255 255 / 50%),
+      rgb(255 255 255 / 50%)
+    ),
+    linear-gradient(#f02aa6, #4851ff);
 }
 
 /*----FOOTER----*/
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.footer {
   background-color: #13183f;
   padding: 2.25rem 1rem;
 }
 
 @media (min-width: 768px) {
-  footer {
+  .footer {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 
 @media (min-width: 1440px) {
-  footer {
+  .footer {
     padding: 2rem 10.375rem;
   }
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--maximum-width);
 }
 
 .footer-brand {
