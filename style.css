@@ -278,6 +278,14 @@ main {
   }
 }
 
+@media (min-width: 1440px) {
+  .intro-illustration {
+    margin-top: 3.125rem;
+    margin-right: 3.4rem;
+    margin-top: 5.5rem;
+  }
+}
+
 .intro-image {
   position: relative;
   display: block;
@@ -295,6 +303,13 @@ main {
 @media (min-width: 768px) {
   .intro-image {
     aspect-ratio: initial;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro-image {
+    max-width: 19.8125rem;
+    padding-top: 4.3rem;
   }
 }
 
