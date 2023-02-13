@@ -57,6 +57,14 @@ p {
   p {
     font-size: 1.125rem;
     line-height: 1.55556;
+    max-width: 27.875rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  p {
+    max-width: 27.875rem;
+    margin: 0;
   }
 }
 
@@ -235,6 +243,12 @@ main {
   .intro {
     max-width: var(--maximum-width);
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro {
+    margin-bottom: 5rem;
   }
 }
 
