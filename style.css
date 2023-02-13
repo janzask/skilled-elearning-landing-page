@@ -53,15 +53,6 @@ p {
   }
 }
 
-@media (min-width: 1440px) {
-  p {
-    font-size: 1.125rem;
-    /*18px/16px*/
-    line-height: 1.5556;
-    /*28px/18px*/
-  }
-}
-
 @media (min-width: 1280px) {
   p {
     font-size: 1.125rem;
