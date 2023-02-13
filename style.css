@@ -56,7 +56,7 @@ p {
 @media (min-width: 1280px) {
   p {
     font-size: 1.125rem;
-    line-height: 1.55556;
+    line-height: 1.5556;
     max-width: 27.875rem;
   }
 }
@@ -164,6 +164,13 @@ h4 {
     font-size: 1.5rem;
     line-height: 1.25;
     margin-top: 2.25rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
