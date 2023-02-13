@@ -496,6 +496,9 @@ main {
   .mini-card {
     margin-top: 3.5rem;
   }
+  .mini-card:nth-child(n + 4) {
+    margin-top: 4.5rem;
+  }
 }
 
 .mini-card-icon {
