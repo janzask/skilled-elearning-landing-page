@@ -568,10 +568,12 @@ main {
 .button-orange:hover,
 .button-orange:active {
   background-image: linear-gradient(
-    #ffa7c3,
-    #ffa7c3
-  ); /* todo: upravit jako violet */
+      rgb(255 255 255 / 50%),
+      rgb(255 255 255 / 50%)
+    ),
+    linear-gradient(#f02aa6, #ff6f48);
 }
+
 @media (min-width: 1280px) {
   .button-orange {
     padding: 1.125rem 2rem;
