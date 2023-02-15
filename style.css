@@ -6,7 +6,7 @@
 
 @media (min-width: 768px) {
   :root {
-    --maximum-width: 43.125rem; /*todo: skutecne cislo*/
+    --maximum-width: 43.125rem;
   }
 }
 
@@ -23,20 +23,20 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1440px) {
-  html {
-    max-width: 90rem;
-    margin: 0 auto;
-  }
+.all {
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 section > * {
-  margin: 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 768px) {
   section > * {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -56,7 +56,8 @@ p {
 @media (min-width: 498px) {
   p {
     max-width: 29.125rem;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -71,7 +72,8 @@ p {
 @media (min-width: 1440px) {
   p {
     max-width: 27.875rem;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -111,6 +113,7 @@ h2 {
 }
 
 h3 {
+  background-color: #f02aa6;
   background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   color: #ffffff;
   font-size: 1.5rem;
@@ -183,6 +186,7 @@ h4 {
 
 /*----HEADER----*/
 .header {
+  max-width: var(--maximum-width);
   margin: 1rem 1rem 0;
   display: flex;
   align-items: center;
@@ -192,15 +196,13 @@ h4 {
 
 @media (min-width: 768px) {
   .header {
-    margin: 1.5rem 2.5rem 0;
-    max-width: var(--maximum-width);
+    margin: 1.5rem 2.5rem 0;  /*todo: rozepsat jen na ty, ktere menis*/
   }
 }
 
 @media (min-width: 1440px) {
   .header {
-    margin: 1.5rem 10.3125rem 0;
-    max-width: var(--maximum-width);
+    margin: 1.5rem 10.3125rem 0; /*todo: rozepsat jen na ty, ktere menis*/
   }
 }
 
@@ -237,15 +239,14 @@ main {
 }
 
 /* ----- introductory section ----- */
-@media (min-width: 375px) {
-  .intro {
-    max-width: 27rem;
-    margin: 0 auto 1.625rem;
-  }
+.intro {
+  max-width: 27rem;
+  margin: 0 auto 1.625rem;
 }
 
 @media (min-width: 768px) {
   .intro {
+    max-width: var(--maximum-width);
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -255,7 +256,6 @@ main {
 
 @media (min-width: 1280px) {
   .intro {
-    max-width: var(--maximum-width);
     justify-content: space-between;
   }
 }
