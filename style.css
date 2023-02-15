@@ -23,6 +23,13 @@ body {
   margin: 0;
 }
 
+@media (min-width: 1440px) {
+  html {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+}
+
 section > * {
   margin: 0 1rem;
 }
