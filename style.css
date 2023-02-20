@@ -369,6 +369,7 @@ main {
   .intro-members {
     top: -0.9rem;
     right: -3.3rem;
+    padding-top: 1rem;
   }
 }
 
@@ -390,6 +391,7 @@ main {
   .intro-course {
     bottom: -2.2rem;
     left: -2.7rem;
+    padding-top: 1rem;
   }
 }
 
@@ -417,6 +419,13 @@ main {
   line-height: 1.3;
 }
 
+@media (min-width: 768px) {
+  .intro-property {
+    line-height: 2;
+    margin-bottom: 0;
+  }
+}
+
 @media (min-width: 1440px) {
   .intro-property {
     margin-bottom: 0.125rem;
@@ -433,10 +442,15 @@ main {
   line-height: 1;
 }
 
+@media (min-width: 768px) {
+  .intro-value {
+    line-height: 1.25;
+  }
+}
+
 @media (min-width: 1440px) {
   .intro-value {
     font-size: 2.5rem;
-    line-height: 1.25;
   }
 }
 
