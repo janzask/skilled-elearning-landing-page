@@ -270,13 +270,20 @@ main {
   .intro-text {
     min-width: 24.875rem;
     margin-right: 2rem; /* todo: udělat jako gap (v jednom směru)*/
-    margin-top: 11.125rem;
+    margin-top: 6.25rem;
   }
 }
 
 @media (min-width: 1280px) {
   .intro-text {
     min-width: 28.5625rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-text p {
+    max-width: 24.875rem;
+    margin: 0;
   }
 }
 
