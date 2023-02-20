@@ -280,6 +280,7 @@ main {
 @media (min-width: 1280px) {
   .intro-text {
     min-width: 28.5625rem;
+    margin-top: 10.75rem;
   }
 }
 
@@ -305,6 +306,12 @@ main {
   .intro-illustration {
     margin-top: 3.125rem;
     margin-right: 2.8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro-illustration {
+    margin-top: 7.35rem;
   }
 }
 
