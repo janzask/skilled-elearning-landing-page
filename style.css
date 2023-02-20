@@ -258,12 +258,13 @@ main {
 
 @media (min-width: 1280px) {
   .intro {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
 @media (min-width: 1440px) {
   .intro {
+    justify-content: space-between;
     margin-bottom: 5rem;
   }
 }
