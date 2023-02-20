@@ -250,7 +250,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 8.5rem;
+    margin-bottom: 6.25rem;
   }
 }
 
@@ -513,6 +513,12 @@ main {
     margin-top: 3.5rem;
     padding: 0.5rem 2rem 2.5rem;
     border-radius: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mini-card:nth-child(n + 3) {
+    margin-top: 3.4rem;
   }
 }
 
