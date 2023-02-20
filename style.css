@@ -107,7 +107,7 @@ h2 {
 @media (min-width: 1280px) {
   h2 {
     font-size: 3.5rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.95rem;
     /*56px/16px*/
   }
 }
@@ -293,7 +293,7 @@ main {
 
 @media (min-width: 1280px) {
   .intro-text p {
-    padding-right: 0.75rem;
+    max-width: 27.875rem;
   }
 }
 
