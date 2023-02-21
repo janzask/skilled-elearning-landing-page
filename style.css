@@ -215,6 +215,13 @@ h4 {
   margin-bottom: -0.0625rem;
 }
 
+@media (min-width: 1280px) {
+  .header-brand {
+    flex-basis: 7.1375rem;
+  }
+}
+
+
 .header-image {
   display: block;
   width: 100%;
@@ -702,4 +709,10 @@ main {
   flex-shrink: 1;
   flex-grow: 0;
   flex-basis: 5.5625rem;
+}
+
+@media (min-width: 1280px) {
+  .footer-brand {
+    flex-basis: 7.1375rem;
+  }
 }
