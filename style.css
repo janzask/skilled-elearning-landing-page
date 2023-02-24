@@ -463,11 +463,7 @@ main {
 }
 
 .courses {
-  background-image: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #f0f1ff 100%
-  );
+  background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   padding-bottom: 5rem;
   margin: 0;
 }
