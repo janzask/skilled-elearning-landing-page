@@ -506,7 +506,7 @@ main {
     max-width: 21.125rem;
     margin-left: 0;
     margin-right: 0;
-    padding: 0.5rem 1.375rem 2rem 2rem;
+    padding: 0.5rem 1.25rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -528,9 +528,15 @@ main {
   }
 }
 
+@media (min-width: 1116px) {
+.mini-card:nth-child(n + 3) {
+    margin-top: 2.5rem;
+}
+}
+
 @media (min-width: 1280px) {
-  .mini-card:nth-child(n + 4) {
-    margin-top: 5rem;
+  .mini-card:nth-child(n + 3) {
+    margin-top: 3.5rem;
   }
 }
 
