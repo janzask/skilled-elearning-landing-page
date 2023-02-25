@@ -481,7 +481,7 @@ main {
 @media (min-width: 1440px) {
   .courses {
     gap: 0 1.875rem;
-    padding-bottom: 8.75rem;
+    padding-bottom: 8.65rem;
   }
 }
 
@@ -664,7 +664,7 @@ main {
 
 .footer {
   background-color: #13183f;
-  padding: 2.25rem 1rem;
+  padding: 2.15rem 1rem;
 }
 
 @media (min-width: 768px) {
