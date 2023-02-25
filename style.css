@@ -529,9 +529,9 @@ main {
 }
 
 @media (min-width: 1116px) {
-.mini-card:nth-child(n + 3) {
+  .mini-card:nth-child(n + 3) {
     margin-top: 2.5rem;
-}
+  }
 }
 
 @media (min-width: 1280px) {
