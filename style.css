@@ -664,7 +664,7 @@ main {
 
 .footer {
   background-color: #13183f;
-  padding: 2.15rem 1rem;
+  padding: 2.25rem 1rem;
 }
 
 @media (min-width: 768px) {
@@ -693,6 +693,7 @@ main {
   flex-shrink: 1;
   flex-grow: 0;
   flex-basis: 5.5625rem;
+  margin-top: 0.3rem;
 }
 
 @media (min-width: 1280px) {
