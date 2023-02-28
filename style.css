@@ -251,7 +251,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 6.25rem;
+    margin-bottom: 6rem;
   }
 }
 
@@ -473,7 +473,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0 0.6875rem;
+    gap: 1rem 0.6875rem;
     padding: 0 2.5rem 5.375rem;
   }
 }
@@ -521,7 +521,7 @@ main {
     border-radius: 1rem;
   }
 }
-
+/*
 @media (min-width: 768px) {
   .mini-card:nth-child(n + 3) {
     margin-top: 3.4rem;
@@ -539,6 +539,7 @@ main {
     margin-top: 3.5rem;
   }
 }
+*/
 
 @media (min-width: 1440px) {
   .mini-card {
