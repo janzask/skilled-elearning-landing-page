@@ -264,7 +264,7 @@ main {
 @media (min-width: 1440px) {
   .intro {
     justify-content: space-between;
-    margin-bottom: 5rem;
+    margin-bottom: 4.5rem;
   }
 }
 
@@ -480,7 +480,7 @@ main {
 
 @media (min-width: 1440px) {
   .courses {
-    gap: 0 1.875rem;
+    gap: 1rem 2.075rem;
     padding-bottom: 8.65rem;
   }
 }
@@ -540,7 +540,7 @@ main {
   }
 }
 */
-
+/*
 @media (min-width: 1440px) {
   .mini-card {
     margin-top: 3.5rem;
@@ -549,7 +549,7 @@ main {
     margin-top: 4.5rem;
   }
 }
-
+*/
 .mini-card-icon {
   margin-top: -5rem;
 }
