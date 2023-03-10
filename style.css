@@ -242,7 +242,7 @@ main {
 
 .intro {
   max-width: 27rem;
-  margin: 0 auto 1.625rem;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
@@ -464,7 +464,7 @@ main {
 
 .courses {
   background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
-  padding-bottom: 5rem;
+  padding-bottom: 4.7rem;
   margin: 0;
 }
 
@@ -521,35 +521,7 @@ main {
     border-radius: 1rem;
   }
 }
-/*
-@media (min-width: 768px) {
-  .mini-card:nth-child(n + 3) {
-    margin-top: 3.4rem;
-  }
-}
 
-@media (min-width: 1116px) {
-  .mini-card:nth-child(n + 3) {
-    margin-top: 2.5rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .mini-card:nth-child(n + 3) {
-    margin-top: 3.5rem;
-  }
-}
-*/
-/*
-@media (min-width: 1440px) {
-  .mini-card {
-    margin-top: 3.5rem;
-  }
-  .mini-card:nth-child(n + 4) {
-    margin-top: 4.5rem;
-  }
-}
-*/
 .mini-card-icon {
   margin-top: -5rem;
 }
@@ -665,7 +637,7 @@ main {
 
 .footer {
   background-color: #13183f;
-  padding: 2.25rem 1rem;
+  padding: 2.30rem 1rem;
 }
 
 @media (min-width: 768px) {
