@@ -288,19 +288,19 @@ h4 {
 @media (min-width: 768px) {
   .intro-illustration {
     margin-top: 3.125rem;
-    margin-right: 2.8rem; /* todo: 2.8125rem */
+    margin-right: 2.8125rem;
   }
 }
 
 @media (min-width: 1280px) {
   .intro-illustration {
-    margin-top: 7.35rem; /* todo celociselne pixely? (v rem) */
+    margin-top: 7rem;
   }
 }
 
 @media (min-width: 1440px) {
   .intro-illustration {
-    margin-right: 3.4rem;  /* todo celociselne pixely? (v rem) */
+    margin-right: 3.375rem;
     margin-top: 5.5rem;
   }
 }
