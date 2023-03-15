@@ -464,8 +464,7 @@ main {
 
 .courses {
   background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
-  padding-bottom: 4.7rem;
-  margin: 0;
+  padding-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
