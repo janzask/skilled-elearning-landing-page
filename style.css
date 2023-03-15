@@ -611,7 +611,7 @@ h4 {
 
 .footer {
   background-color: #13183f;
-  padding: 2.30rem 1rem;
+  padding: 2rem 1rem;
 }
 
 @media (min-width: 768px) {
@@ -623,7 +623,7 @@ h4 {
 
 @media (min-width: 1440px) {
   .footer {
-    padding: 2rem 10.375rem;
+    padding: 2.125rem 10.375rem;
   }
 }
 
