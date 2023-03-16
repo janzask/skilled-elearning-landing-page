@@ -233,6 +233,7 @@ h4 {
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 6rem;
+    gap: 2rem;
   }
 }
 
@@ -255,8 +256,7 @@ h4 {
 
 @media (min-width: 768px) {
   .intro-text {
-    min-width: 24.875rem;
-    margin-right: 2rem; /* todo: udělat jako gap (v jednom směru)*/
+    min-width: 24.875rem; /* todo: udělat jako gap (v jednom směru)*/
     margin-top: 6.25rem;
   }
 }
