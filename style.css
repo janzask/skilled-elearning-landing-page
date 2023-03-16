@@ -470,7 +470,7 @@ h4 {
 
 .mini-card {
   margin-top: 2.5rem;
-  padding: 0.9375rem 1.75rem 2rem;
+  padding: 0.875rem 1.75rem 2rem;
   border-radius: 0.625rem;
   background-color: #ffffff;
 }
@@ -611,7 +611,7 @@ h4 {
 
 .footer {
   background-color: #13183f;
-  padding: 2rem 1rem;
+  padding: 2.25rem 1rem;
 }
 
 @media (min-width: 768px) {
