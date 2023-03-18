@@ -1,11 +1,10 @@
-# <span style="color: pink;">**Skilled elearning landing page**</span>
+# **Skilled elearning landing page**
 
-**Hi everybody,  
-this is my first big project.**  
+Hi everybody, this is my first big project.  
 
 
 This project is made from *frontendmentor.io* website.  
-It is created according to the template from FIGMA and fully responsive in pure <span style="color: pink;">HTML</span> and <span style="color: pink;">CSS</span>.
+It is created according to the template from FIGMA and fully responsive in pure HTML and CSS.
 
 **Link to the page**:
 
