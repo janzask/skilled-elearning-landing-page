@@ -11,8 +11,8 @@ It is created according to the template from Figma and fully responsive in pure 
 
 **Result:** 
 
-<img src="./assets/screenshot-tablet-result.png">
+<img src="./assets/screenshot-tablet-result.png" width="60%">
 
 **Original:**
 
-<img src="./assets/tablet-export.png">
+<img src="./assets/tablet-export.png" width="60%">
